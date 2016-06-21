@@ -1,0 +1,109 @@
+/*
+Description: A CSS sheet for the form handling project web-page.
+Author: 	 Edward Stansfield
+ */
+ 
+ /* Style for the body, font, size etc*/
+ body{
+	 font-family: Calibri;
+	 color: black;
+	 background-repeat:no-repeat;
+	 background-attachment: fixed;
+ 	 background-position: center;
+	 
+ }
+ /*Div Styles*/
+ /*Contains everyting on the page*/
+ #wrapper{
+	 width: 900px;
+	 margin:auto;
+	 border:1px solid #bbb;
+	 padding:10px;
+	 background-color: #dce7ed;
+	 float:center;
+ }
+ /*Contains the title*/
+ #header{
+	 /*width: 800px;*/
+	 margin:auto;
+	 border:1px solid #bbb;
+	 padding:10px;
+	 background-color: #dce7ed;
+	 float:center;
+ }
+ /*Contains other info*/
+ #footer{
+	 /*width: 800px;*/
+	 height: 80px;
+	 padding: 10px;
+	 background-color: #dce7ed;
+	 float:center;
+ }
+ /*Form and Input Styles*/
+ input[type=text]{
+	 border: 2px solid black;
+	 border-radius: 4px;
+	 width: 100%;
+ }
+ input[type=int]{
+	 border: 2px solid blue;
+	 border-radius: 4px;
+	 
+ }
+ input[type=password]{
+	 border: 2px solid purple;
+	 border-radius: 4px;
+	 width: 100%;
+ }
+ input.wrong{
+	border: 2px solid red;
+ }
+ input.correct{
+	border: 2px solid green;
+ }
+ input[type=submit]{
+	 border-radius: 4px;
+	 border:none;
+	 background-color: green;
+	 color: white;
+	 padding: 16px;
+ }
+ select{
+	 border: 2px solid black;
+	 border-radius: 4px;
+	 width: 100%;
+ }
+ /*Text Styles*/
+  h1 {
+    font-family: Calibri;
+	text-decoration:underline;
+	text-align:center;
+	}
+	/*Classes, defined as .example*/
+	/*Use for error reporting*/
+.errors{
+	font-family: Calibri;
+	color: red;
+}
+/*Table Styles*/
+table {
+	border: 3px solid black;
+	border-collapse: collapse;
+	empty-cells: show;
+	margin-left:auto; 
+    margin-right:auto;
+	
+}
+th {
+	text-align: center;
+	font-size: 1.1em;
+    border: 3px solid #000000;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #0000cc;
+    color: #ffffff;
+}
+td{
+		border: 1px solid black;
+		text-align: center;
+}
